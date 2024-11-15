@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "956721845244",
+    "project_id": "belli-95967",
+    "storage_bucket": "belli-95967.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956721845244:android:d4d2994e5642e4d3431879",
+        "android_client_info": {
+          "package_name": "com.eclairios.vendor_mate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAS5UhDYe8GqD9V1ftxUNIMH9lT9Ym1zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
