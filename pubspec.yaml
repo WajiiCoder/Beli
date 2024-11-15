@@ -1,0 +1,57 @@
+name: vendor_mate
+description: "VendorMate is a mobile app that connects vendors with consumers, offering efficient inventory management, seamless order processing, and a user-friendly experience for various vendor types."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  image_picker: ^0.8.4+4
+  file_picker: ^5.2.2
+  intl: ^0.19.0
+  syncfusion_flutter_datepicker: ^26.2.9
+  fl_chart: ^0.68.0
+  qr_flutter: ^4.1.0
+  table_calendar: ^3.1.2
+  flutter_barcode_scanner: ^2.0.0
+  url_launcher: ^6.3.0
+  loading_animation_widget: ^1.2.1
+  time_range_picker: ^2.3.0
+  parse_server_sdk_flutter: ^8.0.0
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  path_provider: ^2.1.4
+  country_picker: ^2.0.26
+  photo_view: ^0.15.0
+  shimmer: ^3.0.0
+  pdf: ^3.11.1
+  open_filex: ^4.5.0
+  country_code_picker: ^3.1.0
+  flutter_spinkit: ^5.2.1
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+# Flutter launcher icons configuration should be outside the `flutter` section
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/app_icon.png"
+  min_sdk_android: 24 # android min sdk min:16, default 21
+  adaptive_icon_background: "#ffffff" # You can use a color or image for the background
+  adaptive_icon_foreground: "assets/app_icon.png" # For adaptive icons on Android
